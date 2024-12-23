@@ -230,7 +230,7 @@ public class MalayNumberToWord {
             englishWord = replaceLastAnd(englishWord);
         }
         englishWord = englishWord.replace("AND ", "");
-        return englishWord.toUpperCase(Locale.ENGLISH);
+        return englishWord.toUpperCase();
     }
 
     private static String replaceLastAnd(String input) {
